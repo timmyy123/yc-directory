@@ -5,7 +5,7 @@ import { AUTHOR_BY_ID_QUERY } from "@/sanity/lib/queries";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import React, { Suspense } from "react";
-import { StartupCardSkeleton } from "@/components/StartupCard";
+import { Skeleton } from "@/components/ui/skeleton";
 
 export const experimental_ppr = true;
 
@@ -39,7 +39,7 @@ const page = async ({ params }: { params: Promise<{ id: string }> }) => {
         <div>
           <p>{session?.id === id ? "Your" : "All"} Startups</p>
           <ul className="card_grid-sm">
-            <Suspense fallback={<StartupCardSkeleton/>}>
+            <Suspense fallback={<Skeleton className="startup-card_skeleton"/>}>
               <UserStartups id={id} />
             </Suspense>
           </ul>
