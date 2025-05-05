@@ -1,0 +1,53 @@
+npm error code ERESOLVE
+npm error ERESOLVE could not resolve
+npm error
+npm error While resolving: sanity-plugin-markdown@5.0.0
+npm error Found: react@19.0.0
+npm error node_modules/react
+npm error   peer react@">=16.8.0" from @dnd-kit/accessibility@3.1.1
+npm error   node_modules/@dnd-kit/accessibility
+npm error     @dnd-kit/accessibility@"^3.1.1" from @dnd-kit/core@6.3.1
+npm error     node_modules/@dnd-kit/core
+npm error       peer @dnd-kit/core@"^6.0.6" from @dnd-kit/modifiers@6.0.1
+npm error       node_modules/@dnd-kit/modifiers
+npm error         @dnd-kit/modifiers@"^6.0.0" from sanity@3.71.2
+npm error         node_modules/sanity
+npm error       2 more (@dnd-kit/sortable, sanity)
+npm error   peer react@">=16.8.0" from @dnd-kit/core@6.3.1
+npm error   node_modules/@dnd-kit/core
+npm error     peer @dnd-kit/core@"^6.0.6" from @dnd-kit/modifiers@6.0.1
+npm error     node_modules/@dnd-kit/modifiers
+npm error       @dnd-kit/modifiers@"^6.0.0" from sanity@3.71.2
+npm error       node_modules/sanity
+npm error         peer sanity@"^3.71.1" from next-sanity@9.8.42
+npm error         node_modules/next-sanity
+npm error         2 more (sanity-plugin-markdown, the root project)
+npm error     peer @dnd-kit/core@"^6.0.7" from @dnd-kit/sortable@7.0.2
+npm error     node_modules/@dnd-kit/sortable
+npm error       @dnd-kit/sortable@"^7.0.1" from sanity@3.71.2
+npm error       node_modules/sanity
+npm error         peer sanity@"^3.71.1" from next-sanity@9.8.42
+npm error         node_modules/next-sanity
+npm error         2 more (sanity-plugin-markdown, the root project)
+npm error     1 more (sanity)
+npm error   69 more (@dnd-kit/modifiers, @dnd-kit/sortable, ...)
+npm error
+npm error Could not resolve dependency:
+npm error peer react@"^18.3" from sanity-plugin-markdown@5.0.0
+npm error node_modules/sanity-plugin-markdown
+npm error   sanity-plugin-markdown@"^5.0.0" from the root project
+npm error
+npm error Conflicting peer dependency: react@18.3.1
+npm error node_modules/react
+npm error   peer react@"^18.3" from sanity-plugin-markdown@5.0.0
+npm error   node_modules/sanity-plugin-markdown
+npm error     sanity-plugin-markdown@"^5.0.0" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\timmy\AppData\Local\npm-cache\_logs\2025-05-05T15_35_55_117Z-eresolve-report.txt
+npm error A complete log of this run can be found in: C:\Users\timmy\AppData\Local\npm-cache\_logs\2025-05-05T15_35_55_117Z-debug-0.log
