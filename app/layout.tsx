@@ -67,7 +67,7 @@ export default function RootLayout({
         className={workSans.variable}
       >
         {children}
-        <Analytics />
+        <Analytics/>
         <Toaster/>
       </body>
     </html>
