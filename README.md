@@ -1,4 +1,5 @@
 YC Directory
+Tutorial project from javascript mastery youtube channel, hand typed every line watching video from start to deployment
 YC Directory is a platform for aspiring entrepreneurs to share and explore startup ideas. This project demonstrates my skills in web development, utilizing a modern tech stack and various rendering strategies to ensure a seamless user experience.
 
 Tech Stack
